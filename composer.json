@@ -1,6 +1,7 @@
 {
     "name": "szvonarev/hexlet-php",
     "autoload": {
+	 "files": ["src/Paris.php", "src/Lists.php","src/Runner.php/"],
         "psr-4": {
             "Szvonarev\\HexletPhp\\": "src/"
         }
@@ -11,5 +12,10 @@
             "email": "zvslavik20@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "illuminate/collections": "^13.31"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^13.3"
+    }
 }
