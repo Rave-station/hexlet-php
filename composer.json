@@ -1,0 +1,15 @@
+{
+    "name": "szvonarev/hexlet-php",
+    "autoload": {
+        "psr-4": {
+            "Szvonarev\\HexletPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rave-station",
+            "email": "zvslavik20@gmail.com"
+        }
+    ],
+    "require": {}
+}
